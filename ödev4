@@ -1,0 +1,9 @@
+select DISTINCT replacement_cost from film
+
+select COUNT(DISTINCT replacement_cost) from film -- 21 Adet Veri
+
+select COUNT(*) from film where title like 'T%' and rating='G' --9 Adet Veri
+
+select COUNT(*) from country where country like '_____' --13 Adet Veri
+
+select COUNT(*) from city  where city ilike '%r' --33 Adet Veri
